@@ -30,7 +30,7 @@ namespace EmailDemo
                 .From("ema@test.com")
                 .To("viki@test.com")
                 .Subject("Agradecimientos")
-                .UsingTemplate(template.ToString(), new { FirstName = "Viki", Razon = "hacerme reir" })
+                .UsingTemplate(template.ToString(), new { FirstName = "Viki", Razon = "Hacerme Reir" })
                 //.Body("Gracias por todo!")
                 .SendAsync();
         }
